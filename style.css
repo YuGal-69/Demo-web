@@ -1,6 +1,5 @@
 .container-fluid {
     overflow: hidden;
-
 }
 .smoothie-container {
     display: flex;
@@ -137,8 +136,8 @@
 }
 
 .product-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Badge Styling */
@@ -153,7 +152,8 @@
 .btn-wishlist {
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 20px;
+    color: red;
     background: #fff;
     border: 1px solid #e5e5e5;
     border-radius: 50%;
@@ -162,12 +162,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background 0.3s ease, transform 0.3s ease;
+
 }
 
 .btn-wishlist:hover {
     background: #f8f8f8;
     transform: scale(1.1);
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Image Styling */
@@ -274,6 +280,8 @@ h3 {
     overflow: hidden;
     position: relative;
 }
+
+
 #discount {
    background-image: url(assets/bg-leaves-img-pattern.png);
    background-color: #e6f3fb;
@@ -1323,11 +1331,14 @@ h3 {
         flex-wrap: wrap;
     }
     #icons {
-        justify-content: end;
-        padding-right: 5%;
-        
+        justify-content: flex-end;
+        padding-right: 5%;  
     }
     
+    a {
+        color: #000;
+    }
+
     #column1 {
         display: flex;
         background-color:#e6f3fa ;
@@ -1397,7 +1408,6 @@ h3 {
     #bottle {
         height: auto;
         max-width: 100%;
-        vertical-align: middle;
     }
     
     .body{
