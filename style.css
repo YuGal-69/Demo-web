@@ -4,8 +4,8 @@
 .smoothie-container {
   display: flex;
 }
-#icons.i {
-  color: #000;
+#icons {
+  justify-content: space-evenly;
 }
 #column1 {
   display: flex;
